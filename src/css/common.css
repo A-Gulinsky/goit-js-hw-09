@@ -16,3 +16,28 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* 02 */
+.timer {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 10px;
+  width: 80px;
+
+  font-size: 16px;
+  color: antiquewhite;
+
+  background-color: rgba(19, 106, 187, 0.616);
+  border-radius: 8px;
+  box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+}
